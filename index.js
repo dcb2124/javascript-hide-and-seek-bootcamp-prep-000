@@ -11,12 +11,12 @@ function increaseRankBy(n){
   
   let lis = document.querySelectorAll('ul.ranked-list li')
   
-  for (let rank in lis){
+  for (let i = 0; i < lis.length; i++) {
     
-    rank.innerHTML = (parseInt(rank.innerHTML) + n).toString();
-  
+    lis[i].innerHTML = (parseInt(lis[i].innerHTML) + n).toString();
     
   }
+
   
 }
 

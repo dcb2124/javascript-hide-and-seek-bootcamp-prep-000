@@ -22,6 +22,6 @@ function increaseRankBy(n){
 
 function deepestChild(){
   
-  thing = document.querySelector
+  return document.querySelector('div#grand-node')
   
 }
